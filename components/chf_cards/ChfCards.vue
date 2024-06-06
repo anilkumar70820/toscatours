@@ -5,7 +5,7 @@ import GrowDown from '../common/icons/GrowDown.vue';
 <template>
   <div class="grid lg:grid-cols-3 sm:grid-cols-2  xl:gap-8 gap-4">
     <!-- ========= UMSATZ CARD ========== -->
-    <div class="bg-white rounded-3xl p-6">
+    <div class="bg-white rounded-3xl xl:p-6 p-4">
       <div class="flex items-center gap-2 mb-2">
         <img src="/public/assets/icons/trolly-icon.svg" alt="trolly" />
         <p class="font-normal text-base text-black mb-0">Umsatz</p>
@@ -19,7 +19,7 @@ import GrowDown from '../common/icons/GrowDown.vue';
       </p>
     </div>
     <!-- =============== BUCHUNGEN CARD =============== -->
-    <div class="bg-white rounded-3xl p-6">
+    <div class="bg-white rounded-3xl xl:p-6 md:p-4 p-6">
       <div class="flex items-center gap-2 mb-2">
         <img src="/public/assets/icons/buchungen-icon.svg" alt="Buchungen" />
         <p class="font-normal text-base text-black mb-0">Buchungen</p>
@@ -33,7 +33,7 @@ import GrowDown from '../common/icons/GrowDown.vue';
       </p>
     </div>
     <!-- ============= KUNDEN CARD ============= -->
-    <div class="bg-white rounded-3xl p-6">
+    <div class="bg-white rounded-3xl xl:p-6 p-4">
       <div class="flex items-center gap-2 mb-2">
         <img src="/public/assets/icons/kunden-icon.svg" alt="kunden" />
         <p class="font-normal text-base text-black mb-0">Kunden</p>

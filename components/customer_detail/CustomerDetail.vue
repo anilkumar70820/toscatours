@@ -9,7 +9,7 @@ import Search from "../common/icons/Search.vue";
         <div class="relative w-full">
           <Search class="absolute top-[50%] left-4 -translate-y-[50%]" />
           <input
-            type="search"
+            type="search" aria-label="Search"
             placeholder="Suche mit Name oder Email"
             class="w-full outline-none placeholder:text-base placeholder:font-medium placeholder:text-mountainMist ps-[52px] pe-4 py-[11px] border border-solid border-lightGrey rounded-full bg-gunSmoke"
           />
@@ -29,7 +29,7 @@ import Search from "../common/icons/Search.vue";
             class="border-t border-t-solid border-t-lightGrey border-b border-b-solid border-b-lightGrey"
           >
             <th class="ps-2">
-              <input type="checkbox" />
+              <input aria-label="checkbox" type="checkbox" />
             </th>
             <th class="font-medium text-base text-charcoalGrey">
               <div class="flex items-center">
@@ -62,7 +62,7 @@ import Search from "../common/icons/Search.vue";
         <tbody>
           <tr class="border-b border-b-solid border-b-lightGrey">
             <td class="text-center ps-2">
-              <input type="checkbox" />
+              <input aria-label="checkbox" type="checkbox" />
             </td>
             <td>
               <div class="flex items-center gap-3">
@@ -83,11 +83,11 @@ import Search from "../common/icons/Search.vue";
             <td class="font-semibold text-base text-jetBlack text-center">
               22 400,98 CHF
             </td>
-            <td><CommonIconsThreeDots /></td>
+            <td><CommonIconsThreeDots class="cursor-pointer" /></td>
           </tr>
           <tr class="border-b border-b-solid border-b-lightGrey">
             <td class="text-center ps-2">
-              <input type="checkbox" />
+              <input aria-label="checkbox" type="checkbox" />
             </td>
             <td>
               <div class="flex items-center gap-3">
@@ -108,7 +108,7 @@ import Search from "../common/icons/Search.vue";
             <td class="font-semibold text-base text-jetBlack text-center">
               22 400,98 CHF
             </td>
-            <td><CommonIconsThreeDots /></td>
+            <td><CommonIconsThreeDots class="cursor-pointer"/></td>
           </tr>
         </tbody>
       </table>
@@ -124,14 +124,14 @@ import Search from "../common/icons/Search.vue";
         </div>
       </div>
       <div class="flex items-center">
-        <CommonIconsDropDown class="rotate-90 opacity-10 m-4"/>
-        <p class="font-medium text-sm text-silverChalice flex items-center justify-center min-h-10 min-w-10 rounded-xl hover:text-carrotOrange hover:bg-lightOrange duration-300">1</p>
-        <p class="font-medium text-sm text-silverChalice flex items-center justify-center min-h-10 min-w-10 rounded-xl hover:text-carrotOrange hover:bg-lightOrange duration-300">2</p>
-        <p class="font-medium text-sm text-silverChalice flex items-center justify-center min-h-10 min-w-10 rounded-xl hover:text-carrotOrange hover:bg-lightOrange duration-300">3</p>
-        <p class="font-medium text-sm text-silverChalice flex items-center justify-center min-h-10 min-w-10 rounded-xl hover:text-carrotOrange hover:bg-lightOrange duration-300">4</p>
+        <CommonIconsDropDown class="rotate-90 opacity-10 m-4 cursor-pointer"/>
+        <p class="font-medium text-sm text-silverChalice flex items-center justify-center min-h-10 min-w-10 rounded-xl hover:text-carrotOrange hover:bg-lightOrange duration-300 cursor-pointer">1</p>
+        <p class="font-medium text-sm text-silverChalice flex items-center justify-center min-h-10 min-w-10 rounded-xl hover:text-carrotOrange hover:bg-lightOrange duration-300 cursor-pointer">2</p>
+        <p class="font-medium text-sm text-silverChalice flex items-center justify-center min-h-10 min-w-10 rounded-xl hover:text-carrotOrange hover:bg-lightOrange duration-300 cursor-pointer">3</p>
+        <p class="font-medium text-sm text-silverChalice flex items-center justify-center min-h-10 min-w-10 rounded-xl hover:text-carrotOrange hover:bg-lightOrange duration-300 cursor-pointer">4</p>
         <p class="font-medium text-sm text-silverChalice flex items-center justify-center min-h-10 min-w-10 rounded-xl hover:text-carrotOrange hover:bg-lightOrange duration-300">...</p>
-        <p class="font-medium text-sm text-silverChalice flex items-center justify-center min-h-10 min-w-10 rounded-xl hover:text-carrotOrange hover:bg-lightOrange duration-300">20</p>
-        <CommonIconsDropDown class="-rotate-90 opacity-10 m-4"/>
+        <p class="font-medium text-sm text-silverChalice flex items-center justify-center min-h-10 min-w-10 rounded-xl hover:text-carrotOrange hover:bg-lightOrange duration-300 cursor-pointer">20</p>
+        <CommonIconsDropDown class="-rotate-90 opacity-10 m-4 cursor-pointer"/>
       </div>
     </div>
   </div>
